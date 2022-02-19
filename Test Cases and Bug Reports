@@ -1,0 +1,79 @@
+ASSESMENT 1:
+Tests to be tested in making a sandwich:
+
+Verify if the bread is fresh and soft before , while making the sandwich.
+Verify if the vegetables are washed and cleaned.
+Verify if all the required ingredients are available.
+Verify if the vegetables are sliced properly suitably to eat.
+Verify if the sauces are fresh and check the expiry date for all.
+Verify if the bread is properly grilled.
+Verify the taste of the sandwich is good, eatable tastily.
+
+
+Every test will have the following :
+
+Test Case ID
+Test Scenario
+Test Name 
+Test Description
+Pre Condition
+Test Data
+Test Steps
+Expected Result for each step.
+Actual Result
+Tester
+
+
+A Bug report for the test will have the following:
+
+Defect ID
+Defect Name
+Defect Description
+Test Data to reproduce the defect
+Severity
+Priority
+Environment
+Module of application.
+Attachment 
+Assignee
+Status of Defect
+
+
+Example : The bread of Sandwich is stale and spoiled with fungi.
+
+Defect ID: DEFE_001
+
+Defect Name: Bread of the sandwich is stale and spoiled with fungus.
+
+Defect Description: There are grey spots on the sandwich filled with bacteria on fungus on the bread which spoiled.
+
+Test Data: Whole Loaf of bread.
+
+Severity: High (As its functionally not be eatable)
+
+Priority: High (As the requirement is also not met)
+
+Environment: (It ll be usually according to project like prod or staging or pre prod)
+
+Module: Sandwich Preparation.
+
+Attachment: A screenshot of image of the spoiled bread to be attached.
+
+Assignee: The developer should be assigned here.
+
+Status of the defect:  OPEN (Can be new or open or closed or deferred or more)
+
+
+
+ASSESMENT 2:
+
+Boundary value analysis Test Cases:
+Test Cases:
+
+1. Verify the output with quantity is 0.
+2. Verify the output if the entered quantity is -1
+3. Verify the output if the entered quantity is 1
+4. Verify the output if the entered quantity is 24
+5. Verify the output if the entered quantity is exact 25.
+6. Verify the output if the entered quantity is 26.
+7. Verify the output if the entered quantity is 100 (any bigger value adhoc test)
